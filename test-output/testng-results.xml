@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+=======
+<<<<<<< HEAD
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-24T11:04:32 CST" name="Default suite" finished-at="2025-02-24T11:04:41 CST" duration-ms="8814">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@7dc0f706]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-24T11:04:32 CST" name="Default test" finished-at="2025-02-24T11:04:41 CST" duration-ms="8814">
+      <class name="testRunner.TestRun">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRun@7dc0f706]" started-at="2025-02-24T11:04:32 CST" name="setUpClass" finished-at="2025-02-24T11:04:33 CST" duration-ms="954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2af46afd]]>
+=======
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+>>>>>>> b073ed976815e475982b6382909bcfa8487b52fe
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-24T19:54:49 EST" name="Default suite" finished-at="2025-02-24T19:55:30 EST" duration-ms="40858">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@568ff82]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-24T19:54:49 EST" name="Default test" finished-at="2025-02-24T19:55:30 EST" duration-ms="40858">
+      <class name="testRunner.TestRun">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRun@568ff82]" started-at="2025-02-24T19:54:49 EST" name="setUpClass" finished-at="2025-02-24T19:54:50 EST" duration-ms="807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+<<<<<<< HEAD
+                <![CDATA[org.testng.TestRunner@788e3702]]>
+=======
+                <![CDATA[org.testng.TestRunner@483b0690]]>
+>>>>>>> 48e05ed77041b935f4021b8a9dff4995e40a9431
+>>>>>>> b073ed976815e475982b6382909bcfa8487b52fe
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@568ff82]" started-at="2025-02-24T19:54:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-24T19:54:59 EST" duration-ms="8957" status="PASS">
+=======
+<<<<<<< HEAD
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@7dc0f706]" started-at="2025-02-24T11:04:33 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-24T11:04:41 CST" duration-ms="7736" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@568ff82]" started-at="2025-02-23T21:16:14 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-23T21:16:33 EST" duration-ms="18912" status="PASS">
+>>>>>>> b073ed976815e475982b6382909bcfa8487b52fe
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Admin is able to land on login page"]]>
+>>>>>>> 48e05ed77041b935f4021b8a9dff4995e40a9431
+              </value>
+            </param>
+            <param index="1">
+              <value>
+<<<<<<< HEAD
+                <![CDATA["Batch Page Navigation"]]>
+=======
+                <![CDATA["Login  Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@568ff82]" started-at="2025-02-24T19:54:59 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-24T19:55:16 EST" duration-ms="17005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login with valid data in all field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login  Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRun@568ff82]" started-at="2025-02-24T19:55:16 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-24T19:55:30 EST" duration-ms="13983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate login with valid data in all field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+<<<<<<< HEAD
+                <![CDATA["Login  Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@568ff82]" started-at="2025-02-24T19:55:30 EST" name="tearDownClass" finished-at="2025-02-24T19:55:30 EST" duration-ms="32" status="PASS">
+=======
+                <![CDATA["Program Page Validation"]]>
+>>>>>>> 48e05ed77041b935f4021b8a9dff4995e40a9431
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+<<<<<<< HEAD
+              <![CDATA[Cannot invoke "pageObjects.HomePage.Click_batch_btn()" because "this.picoObject.homePage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageObjects.HomePage.Click_batch_btn()" because "this.picoObject.homePage" is null
+at stepDefinitions.BatchSteps.admin_clicks_on_the_batch_menu_from_the_header(BatchSteps.java:33)
+at ✽.Admin Clicks on the Batch menu from the header(file:///C:/Users/pavit/git/Final_hackathon_project/LMS-UI-Hackathon-Team15/lmsUI/src/test/resources/FeaturesFiles/TC301_BatchPageNavigation.feature:8)
+=======
+              <![CDATA[Cannot invoke "pageObjects.LoginPage.getHomePageObject()" because "this.picoObject.loginPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pageObjects.LoginPage.getHomePageObject()" because "this.picoObject.loginPage" is null
+at stepDefinitions.ProgramSteps.admin_is_on_home_page_after_login(ProgramSteps.java:30)
+at ✽.Admin is on home page after Login(file:///C:/Users/kiran/LMS-UI-Hackathon-Team15/lmsUI/src/test/resources/FeaturesFiles/TC201_ProgramPageValidation.feature:9)
+>>>>>>> 48e05ed77041b935f4021b8a9dff4995e40a9431
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@7dc0f706]" started-at="2025-02-24T11:04:41 CST" name="tearDownClass" finished-at="2025-02-24T11:04:41 CST" duration-ms="54" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRun@568ff82]" started-at="2025-02-23T21:16:47 EST" name="tearDownClass" finished-at="2025-02-23T21:16:47 EST" duration-ms="38" status="PASS">
+>>>>>>> 48e05ed77041b935f4021b8a9dff4995e40a9431
+>>>>>>> b073ed976815e475982b6382909bcfa8487b52fe
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

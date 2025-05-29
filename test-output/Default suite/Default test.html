@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<<<<<<< HEAD
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+=======
+<<<<<<< HEAD
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 24 11:04:32 CST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8814 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+>>>>>>> b073ed976815e475982b6382909bcfa8487b52fe
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 24 19:54:49 EST 2025</td>
+</tr>
+<<<<<<< HEAD
+<tr><td>Total time:</td><td>40 seconds (40858 ms)</td>
+=======
+<tr><td>Total time:</td><td>34 seconds (34238 ms)</td>
+>>>>>>> 48e05ed77041b935f4021b8a9dff4995e40a9431
+>>>>>>> b073ed976815e475982b6382909bcfa8487b52fe
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<<<<<<< HEAD
+=======
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<<<<<<< HEAD
+<td title='testRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Batch Page Navigation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pageObjects.HomePage.Click_batch_btn()&quot; because &quot;this.picoObject.homePage&quot; is null
+	at stepDefinitions.BatchSteps.admin_clicks_on_the_batch_menu_from_the_header(BatchSteps.java:33)
+	at ✽.Admin Clicks on the Batch menu from the header(file:///C:/Users/pavit/git/Final_hackathon_project/LMS-UI-Hackathon-Team15/lmsUI/src/test/resources/FeaturesFiles/TC301_BatchPageNavigation.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1899609393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1899609393'><pre>java.lang.NullPointerException: Cannot invoke &quot;pageObjects.HomePage.Click_batch_btn()&quot; because &quot;this.picoObject.homePage&quot; is null
+	at stepDefinitions.BatchSteps.admin_clicks_on_the_batch_menu_from_the_header(BatchSteps.java:33)
+	at ✽.Admin Clicks on the Batch menu from the header(file:///C:/Users/pavit/git/Final_hackathon_project/LMS-UI-Hackathon-Team15/lmsUI/src/test/resources/FeaturesFiles/TC301_BatchPageNavigation.feature:8)
+</pre></div></td>
+<td>7</td>
+<td>testRunner.TestRun@7dc0f706</td></tr>
+=======
+<td title='testRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that Admin is able to navigate to Program page", "Program Page Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pageObjects.LoginPage.getHomePageObject()&quot; because &quot;this.picoObject.loginPage&quot; is null
+	at stepDefinitions.ProgramSteps.admin_is_on_home_page_after_login(ProgramSteps.java:30)
+	at ✽.Admin is on home page after Login(file:///C:/Users/kiran/LMS-UI-Hackathon-Team15/lmsUI/src/test/resources/FeaturesFiles/TC201_ProgramPageValidation.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2050715938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2050715938'><pre>java.lang.NullPointerException: Cannot invoke &quot;pageObjects.LoginPage.getHomePageObject()&quot; because &quot;this.picoObject.loginPage&quot; is null
+	at stepDefinitions.ProgramSteps.admin_is_on_home_page_after_login(ProgramSteps.java:30)
+	at ✽.Admin is on home page after Login(file:///C:/Users/kiran/LMS-UI-Hackathon-Team15/lmsUI/src/test/resources/FeaturesFiles/TC201_ProgramPageValidation.feature:9)
+</pre></div></td>
+<td>3</td>
+<td>testRunner.TestRun@568ff82</td></tr>
+</table><p>
+>>>>>>> b073ed976815e475982b6382909bcfa8487b52fe
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to land on login page", "Login  Page Verification"</td>
+<td></td>
+<td>8</td>
+<td>testRunner.TestRun@568ff82</td></tr>
+<tr>
+<td title='testRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid data in all field", "Login  Page Verification"</td>
+<td></td>
+<td>13</td>
+<td>testRunner.TestRun@568ff82</td></tr>
+<tr>
+<td title='testRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid data in all field", "Login  Page Verification"</td>
+<td></td>
+<td>17</td>
+<td>testRunner.TestRun@568ff82</td></tr>
+>>>>>>> 48e05ed77041b935f4021b8a9dff4995e40a9431
+</table><p>
+</body>
+</html>

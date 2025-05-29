@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testRunner.TestRun">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+<<<<<<< HEAD
+          <include name="runScenario" invocation-numbers="0"/>
+=======
+          <include name="runScenario" invocation-numbers="2"/>
+>>>>>>> 48e05ed77041b935f4021b8a9dff4995e40a9431
+        </methods>
+      </class> <!-- testRunner.TestRun -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
